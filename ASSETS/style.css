@@ -1,0 +1,116 @@
+:root{
+    --main-color:#5035F2;
+    --main-color2:#7849E4;
+    --black:#0c0c0c;
+    --white:#fff;
+    --main-dark-color:#241442;
+}
+header{
+    background-color: var(--main-dark-color);
+}
+.nav-link{
+    color: #fff;   
+}
+.nav-link:hover{
+    color: var(--main-color2);
+}
+.hero{
+    background: linear-gradient(45deg, var(--main-color), var(--main-color2));
+    min-height: 80vh;
+    overflow: hidden;
+}
+.search{
+    display: flex;
+    padding: 6px;
+    overflow: hidden;
+}
+.search input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.search button{
+    min-width: 100px;
+}
+.search select{
+    border: none;
+    border-right: 1px solid #e6e6e6;
+    padding: 4px;
+    margin-right: 3px;
+    background-color: transparent;
+    outline: none;
+}
+.hero-image img{
+    transform: translateY(80px);
+}
+@media (max-width:576px){
+    .hero-image img{
+        transform: translateY(20px);
+    }
+}
+.heading{
+    font-weight: 900;
+    letter-spacing: 1.3px;
+   
+}
+
+.courses{
+    transform: translateY(-60px);
+    background-color: var(--white);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 30px;
+    flex-flow: wrap;
+}
+.course-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #cccccc3a;
+    border-radius: 10px;
+    flex: 1;
+    padding: 20px 10px;
+}
+.course-card-left{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(315deg, #f46379, #ff99fa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+.card header{
+    padding: 20px;
+}
+.featured-card{
+min-width: 300px;
+}
+.featured-card .card-header img{
+border-radius: 10px;
+}
+.featured-card .stars i{
+font-size: 0.7rem; !important;
+}
+.featured-card .card-body button{
+    padding: 5px;
+    font-size:0.8rem;
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.card-header{
+    background-color: #fff
+    !important;
+}
+.profile{
+    margin-bottom: 10px;
+}
+::-webkit-scrollbar{
+
+}
+    
