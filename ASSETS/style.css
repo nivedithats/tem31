@@ -83,16 +83,17 @@ header{
     color: var(--white);
 }
 .card header{
-    padding: 20px;
+    padding: 30px;
 }
 .featured-card{
 min-width: 300px;
 }
 .featured-card .card-header img{
-border-radius: 10px;
+border-radius: 20px;
+
 }
 .featured-card .stars i{
-font-size: 0.7rem; !important;
+font-size: 0.7rem !important;
 }
 .featured-card .card-body button{
     padding: 5px;
